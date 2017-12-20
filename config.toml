@@ -1,0 +1,11 @@
+baseURL = "http://42vision.github.io"
+languageCode = "en-us"
+title = "42Vision"
+theme = "ananke"
+
+[permalinks]
+  post = "/:year/:month/:title/"
+
+[params]
+  subtitle = "Hugo is Absurdly Fast!"
+  author = "字节熊"
