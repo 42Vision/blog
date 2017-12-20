@@ -1,6 +1,6 @@
-baseURL = "http://example.org/"
+baseURL = "http://42vision.github.io"
 languageCode = "en-us"
-title = "42vision"
+title = "42Vision"
 theme = "ananke"
 
 [permalinks]
