@@ -1,0 +1,11 @@
+baseURL = "http://example.org/"
+languageCode = "en-us"
+title = "42vision"
+theme = "ananke"
+
+[permalinks]
+  post = "/:year/:month/:title/"
+
+[params]
+  subtitle = "Hugo is Absurdly Fast!"
+  author = "字节熊"
