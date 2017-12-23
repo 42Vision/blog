@@ -1,17 +1,33 @@
 Title =  "42Vision"
-theme = "hyde"
 LanguageCode = "zh-CN"
 BaseUrl = "http://42vision.github.io"
+Theme =  "next"
+MetaDataFormat =  "yaml"
+CanonifyUrls =  true
 BuildDrafts =  false
+PaginatePath =  "p"
+Paginate = 8
+DisablePathToLower =  false
+HasCJKLanguage = true
+PreserveTaxonomyNames = false
+UglyUrls = false
+PygmentsStyle = "monokai"
+PygmentsUseClasses = true
 DefaultContentLanguage = "zh"
 
-
 [Params]
-  themeColor = "theme-base-0c"
-  introduce = "Developer & RabbitLover"
-  description = "42Vision | 博客 | 开源 | 创业 | 想法 | 笔记"
+  Introduce = "Developer & RabbitLover"
+  Description = "42Vision | 博客 | 开源 | 创业 | 想法 | 笔记"
   Keywords =  "42Vision,博客,独立,博客,开发者,开源,思考,笔记,技术,分享,权利的游戏"
   Subtitle = "谁落在虫洞中央, 看见消失的光"
+  Imglogo = "/img/logo.png"
+  AuthorImg = "/img/author.jpg"
+  DateFormat = "2006-01-02"
+  YearFormat = "2006年"
+  MonthFormat = "01-02"
+  #BaiduStatsId = "0b07433b4ab8d587dae7d34e71973839"
+  # QQStatsId = "58416275"
+  Fancybox = true
 
 [Author]
   Name = "字节熊"
@@ -48,7 +64,7 @@ DefaultContentLanguage = "zh"
 [[Menu.Main]]
   Name = "归档"
   Pre = "archive"
-  URL = "/posts/"
+  URL = "/post/"
   Weight = 6
 [[Menu.Main]]
   Name = "关于"

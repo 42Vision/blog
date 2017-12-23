@@ -1,7 +1,7 @@
 ---
 title: "Hello Hugo"
 date: 2017-12-19T15:04:26+08:00
-draft: false 
+draft: true
 ---
 
 ## I like Hugo
